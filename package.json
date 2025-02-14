@@ -1,0 +1,20 @@
+{
+  "name": "digbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/electron.js",
+  "type": "module",
+  "scripts": {
+     "build": "tsc",
+     "start": "npm run build && electron ./dist/electron.js",
+     "pack": "electron-packager . digbot"
+   },
+  "keywords": [],
+  "author": "Kalasen Zyphurus",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "electron-packager": "^17.2.0",
+    "typescript": "^5.3.3"
+  }
+}

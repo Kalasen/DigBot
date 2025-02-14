@@ -1,0 +1,4 @@
+node_modules/
+dist/
+project-amos-win32-x64/
+*.rar
